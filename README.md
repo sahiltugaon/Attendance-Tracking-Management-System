@@ -1,3 +1,8 @@
+-  Web Development Project
+
+### About
+
+A user-friendly Attendance Tracking Management System project in which students can log in or register, scan the QR codes based on registration numbers, mark the attendance using the database, and automated system to notify guardians and students about absenteeism.
 
 • Created a system generating QR codes based on registration numbers.
 • Implemented QR code scanning to mark attendance with timestamps in a centralized database.
