@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Attendance System</title>
+</head>
+<body>
+    <div id="welcomeMessage"></div>
+    <button id="markAttendanceBtn" style="display:none;">Mark Attendance</button>
+
+    <script>
+        // Function to display welcome message and show the attendance button
+        function showWelcomeMessage(studentName) {
+            document.getElementById("welcomeMessage").textContent = "Welcome, " + studentName + "!";
+            document.getElementById("markAttendanceBtn").style.display = "block";
+        }
+
+        // Simulate marking attendance when the button is clicked
+        document.getElementById("markAttendanceBtn").addEventListener("click", function () {
+            alert("Attendance marked successfully!");
+        });
+    </script>
+</body>
+</html>

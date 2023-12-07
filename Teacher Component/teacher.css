@@ -1,0 +1,15 @@
+th:hover{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+  #present-cell{
+    background-color: green;
+    color: white; /* For better visibility */
+  }
+  
+  #absent-cell{
+    background-color: red;
+    color: white; /* For better visibility */
+  }
